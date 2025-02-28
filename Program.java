@@ -56,6 +56,8 @@ public class Program {
             }
         } catch (InputMismatchException e) {
             System.out.println("ERROR: NOT VALID");
+        } catch (ArithmeticException e) {
+            System.out.println("ERROR: CAN'T DIVIDE BY ZERO");
         }
     }
 }
