@@ -20,6 +20,7 @@ public class Program {
                 int user_input = scan.nextInt();
                 switch (user_input) {
                     case 1 -> {
+                        System.out.println("INFO: YOU'RE ADDING");
                         System.out.println("FIRST NUM:");
                         int user_input_2 = scan.nextInt();
                         System.out.println("SECOND NUM:");
@@ -29,6 +30,7 @@ public class Program {
 
                     }
                     case 2 -> {
+                        System.out.println("INFO: YOU'RE SUBTRACTING");
                         System.out.println("FIRST NUM:");
                         int user_input_2 = scan.nextInt();
                         System.out.println("SECOND NUM:");
@@ -37,6 +39,7 @@ public class Program {
                         System.out.println(user_input_2 - user_input_3);
                     }
                     case 3 -> {
+                        System.out.println("INFO: YOU'RE MULTIPLYING");
                         System.out.println("FIRST NUM:");
                         int user_input_2 = scan.nextInt();
                         System.out.println("SECOND NUM:");
@@ -45,6 +48,7 @@ public class Program {
                         System.out.println(user_input_2 * user_input_3);
                     }
                     case 4 -> {
+                        System.out.println("INFO: YOU'RE DIVIDING");
                         System.out.println("FIRST NUM:");
                         int user_input_2 = scan.nextInt();
                         System.out.println("SECOND NUM:");
@@ -53,6 +57,7 @@ public class Program {
                         System.out.println(user_input_2 / user_input_3);
                     }
                     case 5 -> {
+                        System.out.println("INFO: EXIT");
                         System.exit(0);
                     }
                     default -> throw new InputMismatchException("ERROR: NOT VALID");
