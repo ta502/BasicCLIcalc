@@ -15,6 +15,7 @@ public class Program {
                 System.out.println("2. SUBTRACTION");
                 System.out.println("3. MULTIPLY");
                 System.out.println("4. DIVIDE");
+                System.out.println("5. EXIT");
                 System.out.println("CHOOSE:");
                 int user_input = scan.nextInt();
                 switch (user_input) {
@@ -50,6 +51,9 @@ public class Program {
                         int user_input_3 = scan.nextInt();
                         System.out.println("RESULT:");
                         System.out.println(user_input_2 / user_input_3);
+                    }
+                    case 5 -> {
+                        System.exit(0);
                     }
                     default -> throw new InputMismatchException("ERROR: NOT VALID");
                 }
