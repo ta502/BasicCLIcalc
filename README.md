@@ -5,6 +5,6 @@ Bare-Bones command line calculator, it has the 4 main math operations:
 - Multiply
 - Division 
 
-That's it, it's my first beginner project.
+That's it.
 
 **NOTE:** Keep in mind that it's just a beginner project, so you might find bad code, don't take it too seriously.
