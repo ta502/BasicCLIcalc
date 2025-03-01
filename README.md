@@ -1,5 +1,5 @@
 ## BASIC-CLI-CALC
-Pretty bare-bones command line calculator, it has the 4 main math operations:
+Bare-Bones command line calculator, it has the 4 main math operations:
 - Addition
 - Subtraction
 - Multiply
