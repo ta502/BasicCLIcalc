@@ -5,4 +5,4 @@ Bare-Bones command line calculator, it has the 4 main math operations:
 - Multiply
 - Division 
 
-That's it.
+that's it.
