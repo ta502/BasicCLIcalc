@@ -9,7 +9,7 @@ public class Program {
             System.out.println("| _ \\/ _ \\\\__ \\| | (_| (__| |__ | | (__ / _ \\| |_| (__ ");
             System.out.println("|___/_/ \\_\\___/___\\___\\___|____|___\\___/_/ \\_\\____\\___|");
             System.out.println("WELCOME TO BASIC-CLI-CALC");
-            while (true) { 
+            while (true) {
                 System.out.println("What do you want to do? (2 numbers)");
                 System.out.println("1. ADDITION");
                 System.out.println("2. SUBTRACTION");
