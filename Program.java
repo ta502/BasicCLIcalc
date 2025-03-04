@@ -4,10 +4,6 @@ import java.util.Scanner;
 public class Program {
     public static void main(String[] args) {
         try (Scanner scan = new Scanner(System.in)) {
-            System.out.println(" ___   _   ___ ___ ___ ___ _    ___ ___   _   _    ___ ");
-            System.out.println("| _ ) /_\\ / __|_ _/ __/ __| |  |_ _/ __| /_\\ | |  / __|");
-            System.out.println("| _ \\/ _ \\\\__ \\| | (_| (__| |__ | | (__ / _ \\| |_| (__ ");
-            System.out.println("|___/_/ \\_\\___/___\\___\\___|____|___\\___/_/ \\_\\____\\___|");
             System.out.println("WELCOME TO BASIC-CLI-CALC");
             while (true) {
                 System.out.println("What do you want to do? (2 numbers)");
@@ -16,6 +12,7 @@ public class Program {
                 System.out.println("3. MULTIPLY");
                 System.out.println("4. DIVIDE");
                 System.out.println("5. EXIT");
+                System.out.println("6. ABOUT");
                 System.out.println("CHOOSE:");
                 int user_input = scan.nextInt();
                 switch (user_input) {
@@ -59,6 +56,12 @@ public class Program {
                     case 5 -> {
                         System.out.println("INFO: EXIT");
                         System.exit(0);
+                    }
+                    case 6 -> {
+                        System.out.println("BasicCLIcalc IS A BARE-BONES COMMAND LINE CALCULATOR.");
+                        System.out.println("THIS SOFTWARE IS RELEASED UNDER NO LICENSE.");
+                        System.out.println("VERSION 1.0");
+                        System.out.println("Made by @ta502 (Talal)");
                     }
                     default -> throw new InputMismatchException("ERROR: NOT VALID");
                 }
