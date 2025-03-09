@@ -7,57 +7,57 @@ public class Program {
             System.out.println("WELCOME TO BASIC-CLI-CALC");
             while (true) {
                 System.out.println("What do you want to do? (2 numbers)");
-                System.out.println("1. ADDITION");
-                System.out.println("2. SUBTRACTION");
-                System.out.println("3. MULTIPLY");
-                System.out.println("4. DIVIDE");
-                System.out.println("5. EXIT");
-                System.out.println("6. ABOUT");
+                System.out.println("1. ADDITION (2 NUMs)");
+                System.out.println("2. SUBTRACTION (2 NUMs)");
+                System.out.println("3. MULTIPLY (2 NUMs)");
+                System.out.println("4. DIVIDE (2 NUMs)");
+                System.out.println("9. EXIT");
+                System.out.println("10. ABOUT");
                 System.out.println("CHOOSE:");
-                int user_input = scan.nextInt();
-                switch (user_input) {
+                int userInput = scan.nextInt();
+                switch (userInput) {
                     case 1 -> {
-                        System.out.println("INFO: YOU'RE ADDING");
+                        System.out.println("INFO: YOU'RE ADDING (2 NUM MODE)");
                         System.out.println("FIRST NUM:");
-                        int user_input_2 = scan.nextInt();
+                        int userInput2 = scan.nextInt();
                         System.out.println("SECOND NUM:");
-                        int user_input_3 = scan.nextInt();
+                        int userInput3 = scan.nextInt();
                         System.out.println("RESULT:");
-                        System.out.println(user_input_2 + user_input_3);
+                        System.out.println(userInput2 + userInput3);
 
                     }
                     case 2 -> {
-                        System.out.println("INFO: YOU'RE SUBTRACTING");
+                        System.out.println("INFO: YOU'RE SUBTRACTING (2 NUM MODE)");
                         System.out.println("FIRST NUM:");
-                        int user_input_2 = scan.nextInt();
+                        int userInput2 = scan.nextInt();
                         System.out.println("SECOND NUM:");
-                        int user_input_3 = scan.nextInt();
+                        int userInput3 = scan.nextInt();
                         System.out.println("RESULT:");
-                        System.out.println(user_input_2 - user_input_3);
+                        System.out.println(userInput2 - userInput3);
                     }
                     case 3 -> {
-                        System.out.println("INFO: YOU'RE MULTIPLYING");
+                        System.out.println("INFO: YOU'RE MULTIPLYING (2 NUM MODE)");
                         System.out.println("FIRST NUM:");
-                        int user_input_2 = scan.nextInt();
+                        int userInput2 = scan.nextInt();
                         System.out.println("SECOND NUM:");
-                        int user_input_3 = scan.nextInt();
+                        int userInput3 = scan.nextInt();
                         System.out.println("RESULT:");
-                        System.out.println(user_input_2 * user_input_3);
+                        System.out.println(userInput2 * userInput3);
                     }
                     case 4 -> {
-                        System.out.println("INFO: YOU'RE DIVIDING");
+                        System.out.println("INFO: YOU'RE DIVIDING (2 NUM MODE)");
                         System.out.println("FIRST NUM:");
-                        int user_input_2 = scan.nextInt();
+                        int userInput2 = scan.nextInt();
                         System.out.println("SECOND NUM:");
-                        int user_input_3 = scan.nextInt();
+                        int userInput3 = scan.nextInt();
                         System.out.println("RESULT:");
-                        System.out.println(user_input_2 / user_input_3);
+                        System.out.println(userInput2 / userInput3);
                     }
-                    case 5 -> {
+                    case 9 -> {
                         System.out.println("INFO: EXIT");
                         System.exit(0);
                     }
-                    case 6 -> {
+                    case 10 -> {
                         System.out.println("BasicCLIcalc IS A BARE-BONES COMMAND LINE CALCULATOR.");
                         System.out.println("THIS SOFTWARE IS RELEASED UNDER NO LICENSE.");
                         System.out.println("VERSION 1.0");
